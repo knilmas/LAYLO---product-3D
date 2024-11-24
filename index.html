@@ -4,9 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAYLO Product Configurator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #0056b3;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to LAYLO Product Configurator</h1>
-    <p>Explore the custom finishes and materials for your designs!</p>
+    <header>
+        <h1>Welcome to LAYLO Product Configurator</h1>
+        <p>Explore and customize your designs with our tools and materials!</p>
+    </header>
+
+    <nav>
+        <a href="#configurator">Product Configurator</a>
+        <a href="#materials">Materials Library</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <main>
+        <section id="configurator">
+            <h2>Product Configurator</h2>
+            <p>Use our interactive product configurator to customize your designs.</p>
+            <a href="configurator.html" class="button">Go to Configurator</a>
+        </section>
+
+        <section id="materials">
+            <h2>Materials Library</h2>
+            <p>Explore our collection of high-quality finishes and materials.</p>
+            <ul>
+                <li><a href="finishes/bleachedOak.jpg" target="_blank">Bleached Oak</a></li>
+                <li><a href="finishes/naturalWalnut.jpg" target="_blank">Natural Walnut</a></li>
+                <li><a href="finishes/oxidizedWalnut.jpg" target="_blank">Oxidized Walnut</a></li>
+                <li><a href="finishes/blackenedStainlessSteel.jpg" target="_blank">Blackened Stainless Steel</a></li>
+                <!-- Add more materials as needed -->
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>LAYLO Studio creates bespoke, customizable furniture and products with a focus on craft, quality, and innovation. Explore our offerings to find the perfect fit for your needs.</p>
+            <a href="about.html" class="button">Learn More</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 LAYLO Studio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
